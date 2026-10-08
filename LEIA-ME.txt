@@ -1,50 +1,11 @@
-SITE TIA MARCI - COMO PUBLICAR NO VERCEL
-========================================
+COMO ATUALIZAR O SITE (fisiomarci.vercel.app)
 
-O QUE TEM NESTA PASTA
-- index.html ............ a página inteira (celular e computador no mesmo arquivo)
-- og.jpg ................ a imagem que aparece quando alguém compartilha o link no WhatsApp/Instagram
-- video/consultorio.mp4 . o vídeo do consultório
-Mantenha exatamente essa estrutura. O vídeo precisa ficar dentro da pasta "video".
+1. Abra: https://github.com/marcianafisioapp-beep/fisiomarci/upload/main
+2. Arraste os 3 arquivos juntos: index.html, og.jpg, consultorio.mp4
+3. Clique no botão verde "Commit changes".
+4. Espere 1 minuto e abra o site numa aba anônima.
 
-WHATSAPP
-- Todos os botões já levam para (51) 99794-0927.
-
-CAMINHO MAIS FÁCIL (sem programar): GitHub + Vercel
-1. Crie uma conta grátis em github.com.
-2. Clique em "New repository" (botão verde). Nome: tia-marci-site. Marque "Public". Clique em "Create repository".
-3. Na tela seguinte, clique em "uploading an existing file".
-4. Arraste o index.html, o og.jpg e a pasta video (com o vídeo dentro). Clique em "Commit changes".
-5. Crie uma conta grátis em vercel.com, entrando com a sua conta do GitHub.
-6. No Vercel, clique em "Add New..." > "Project".
-7. Escolha o repositório tia-marci-site e clique em "Import".
-8. Não mude nenhuma configuração. Clique em "Deploy".
-9. Em menos de um minuto aparece o link do site (algo como tia-marci-site.vercel.app).
-   IMPORTANTE: a imagem de prévia já está configurada para https://tia-marci-site.vercel.app
-   Se o seu link for diferente (ou quando tiver domínio próprio), avise o Claude para ajustar.
-
-PARA ATUALIZAR O SITE DEPOIS
-- No GitHub, entre no repositório, clique em "Add file" > "Upload files", arraste o novo index.html
-  e clique em "Commit changes". O Vercel publica a nova versão sozinho, em segundos.
-
-DOMÍNIO PRÓPRIO (ex.: www.tiamarci.com.br)
-- Compre o domínio (no Registro.br para .com.br).
-- No Vercel: projeto > Settings > Domains > adicione o domínio e siga as instruções que aparecem
-  (o Vercel mostra exatamente o que colar no Registro.br).
-
-CONFERIR DEPOIS DE PUBLICAR
-- Abra o link no celular e no computador.
-- Toque no botão verde e confira se abre o SEU WhatsApp.
-- Role até "Onde o atendimento acontece" e veja se o vídeo roda sozinho.
-
-EDITAR UM TEXTO DIRETO NO GITHUB (sem baixar nada)
-1. No GitHub, abra o repositório e clique no arquivo index.html.
-2. Clique no lápis (Edit this file), no canto direito.
-3. Aperte Ctrl+F (ou Cmd+F no Mac) e procure um pedaço do texto que quer mudar.
-4. Troque só o texto. Não apague os sinais < > nem o que está entre eles.
-5. Clique em "Commit changes". Em cerca de 1 minuto o site atualiza sozinho.
-
-O QUE PEDIR AO CLAUDE (em vez de editar sozinha)
-- Trocar fotos ou vídeo, mudar layout, cores, ordem das seções, ligar os depoimentos.
-  O Claude entrega um novo index.html; você sobe no GitHub em "Add file" > "Upload files"
-  com o mesmo nome, e ele substitui o antigo.
+Já incluído no index.html:
+- Texto do WhatsApp: "Olá, gostaria de conversar sobre o desenvolvimento do meu pequeno."
+- Título da aba: "Marciana Oliveira · Fisioterapeuta Pediátrica em Santa Cruz do Sul"
+- Ícone da aba: seu logo
